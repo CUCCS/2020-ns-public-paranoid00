@@ -27,27 +27,27 @@
 | victim-xp-2 | 172.16.222.129 |
 | victim-debian | 172.16.222.141 |
 ## 完成以下网络连通性测试
-- [x]靶机可以直接访问攻击者主机
+- [x] 靶机可以直接访问攻击者主机
 ![](img/victim-debian%20connect%20attacker.png)
 ![](img/victim-kali%20connect-attacker.png)
 ![](img/victim-xp-2%20connect%20attacker.png)
 ![](img/victim-xp-1%20connect%20attacker.png)
 --------------
-- [x]攻击者主机无法直接访问靶机
+- [x] 攻击者主机无法直接访问靶机
 ![](img/attacker%20connect%20victim-debian.png)
 ![](img/attacker%20connect%20victim-kali.png)
 ![](img/attacker%20connect%20victim-xp-1.png)
 ![](img/attacker%20connect%20xp-2.png)
 --------------
-- [x]网关可以直接访问攻击者主机和靶机
+- [x] 网关可以直接访问攻击者主机和靶机
 ![](img/gateway%20connect%20attacker.png)
 ![](img/gateway%20connect%20victim-kali.png)
 ![](img/gateway%20connect%20victim-xp-1.png)
 ![](img/gateway%20connect%20victim-xp-2.png)
 ![](img/gateway%20connect-victim-debian.png)
 -----------------------
-- [x]靶机的所有对外上下行流量必须经过网关
-- [x]所有节点均可以访问互联网
+- [x] 靶机的所有对外上下行流量必须经过网关
+- [x] 所有节点均可以访问互联网
 ![](img/gateway%20connect-network.png)
 ![](img/attacker%20connect%20network.png)
 ![](img/victim-debian%20connect%20network.png)
